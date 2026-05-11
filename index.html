@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Your Name — Writer</title>
+    <meta name="description" content="Portfolio of writing, essays, fiction, and journalism." />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#">Your Name</a>
+            <nav class="main-nav">
+                <a href="#works">Works</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Stories, essays, and ideas that linger.</h1>
+                    <p class="tagline">I write fiction and non-fiction about culture, technology, and the odd corners of
+                        everyday life.</p>
+                    <p class="cta-row"><a class="btn" href="#works">Explore my work</a> <a class="btn ghost"
+                            href="#contact">Hire / Contact</a></p>
+                </div>
+                <div class="hero-avatar" aria-hidden="true">
+                    <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="160" height="160" rx="12" fill="#F3F4F6" />
+                        <circle cx="80" cy="60" r="28" fill="#E5E7EB" />
+                        <rect x="32" y="104" width="96" height="28" rx="6" fill="#E5E7EB" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="works" class="container works">
+            <h2 class="section-title">Selected Works</h2>
+            <p class="section-sub">A curated selection across genres — long reads, short stories, and features.</p>
+            <div class="grid">
+                <article class="card">
+                    <h3 class="card-title">Longform: The Quiet City</h3>
+                    <p class="card-excerpt">A reportage piece exploring urban solitude and the small rituals that keep
+                        communities connected.</p>
+                    <p class="card-meta">Feature · 6,400 words</p>
+                    <a class="read-link" href="#">Read →</a>
+                </article>
+
+                <article class="card">
+                    <h3 class="card-title">Short Story: Glass Harbor</h3>
+                    <p class="card-excerpt">A near-future short story about memory, repair, and the people who fix what
+                        others discard.</p>
+                    <p class="card-meta">Fiction · 3,200 words</p>
+                    <a class="read-link" href="#">Read →</a>
+                </article>
+
+                <article class="card">
+                    <h3 class="card-title">Essay: The Taste of Old Technology</h3>
+                    <p class="card-excerpt">An essay on why analog objects keep finding new meaning in a digital world.
+                    </p>
+                    <p class="card-meta">Essay · 1,800 words</p>
+                    <a class="read-link" href="#">Read →</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="container about">
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
+                <div>
+                    <p>Hello — I'm <strong>Your Name</strong>, a writer who works across fiction and non-fiction. I
+                        publish essays, short stories, and longform reporting. My work appears in various journals and
+                        online platforms.</p>
+                    <p>I love the craft of scenes and the discipline of good reporting. I’m available for commissions,
+                        features, and collaborative projects.</p>
+                </div>
+                <aside>
+                    <p><strong>Quick facts</strong></p>
+                    <ul>
+                        <li>Based in: Your City</li>
+                        <li>Available for: Commissions, editing, workshops</li>
+                        <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+
+        <section id="contact" class="container contact">
+            <h2 class="section-title">Contact</h2>
+            <p>If you'd like to work together or request clips, drop a short note.</p>
+            <form class="contact-form" action="#" method="post">
+                <label>
+                    Name
+                    <input type="text" name="name" required>
+                </label>
+                <label>
+                    Email
+                    <input type="email" name="email" required>
+                </label>
+                <label>
+                    Message
+                    <textarea name="message" rows="5" required></textarea>
+                </label>
+                <p><button class="btn" type="submit">Send message</button></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Your Name — Writer. <a href="#">Privacy</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
